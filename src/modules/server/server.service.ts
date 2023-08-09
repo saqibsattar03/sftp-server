@@ -180,7 +180,7 @@ export class ServerService {
   }
 
   async zipDirectory(directoryPath: string): Promise<any> {
-    directoryPath = 'd:/upwork';
+    directoryPath = 'd:/Scan';
     const zip = new JSZip();
     const files = await this.readFilesFromDirectory(directoryPath, '');
 
